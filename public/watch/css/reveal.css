@@ -1,0 +1,155 @@
+/*	--------------------------------------------------
+	Reveal Modals
+	-------------------------------------------------- */
+		
+	.reveal-modal-bg {
+		position: fixed;
+		height: 100%;
+		width: 100%;
+		background: #000;
+		background: rgba(23, 44, 58, 0.75);
+		z-index: 9999;
+		display: none;
+		top: 0;
+		left: 0;
+		}
+	
+	#zakaz_zvonka.reveal-modal {
+		visibility: hidden;
+		top: 100px;
+		/* left: 50%; */
+		/* margin-left: -300px; */
+		background: #fff;
+		position: fixed;
+		z-index: 999999;
+		-moz-box-shadow: 0 0 10px rgba(23, 44, 58, 0.75);
+		-webkit-box-shadow: 0 0 10px rgba(23, 44, 58, 0.75);
+		-box-shadow: 0 0 10px rgba(23, 44, 58, 0.75);
+		border-radius: 10px;
+		background: #4aa1d8;
+		text-align: center;
+		padding-top: 35px;
+		color: #fff;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		width: 580px;
+		height: 390px;
+		box-sizing: border-box;
+		}
+	#zakaz_skudka.reveal-modal {
+		visibility: hidden;
+		top: 100px;
+		/* left: 50%; */
+		/* margin-left: -300px; */
+		background: #fff;
+		position: fixed;
+		z-index: 999999;
+		-moz-box-shadow: 0 0 10px rgba(23, 44, 58, 0.75);
+		-webkit-box-shadow: 0 0 10px rgba(23, 44, 58, 0.75);
+		-box-shadow: 0 0 10px rgba(23, 44, 58, 0.75);
+		border-radius: 10px;
+		background: url(../images/modal_bg.png) no-repeat;
+		text-align: center;
+		padding-top: 35px;
+		color: #fff;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		width: 700px;
+		height: 517px;
+		box-sizing: border-box;
+		}
+	#zakaz_skudka2.reveal-modal {
+		visibility: hidden;
+		top: 100px;
+		/* left: 50%; */
+		/* margin-left: -300px; */
+		background: #fff;
+		position: fixed;
+		z-index: 999999;
+		-moz-box-shadow: 0 0 10px rgba(23, 44, 58, 0.75);
+		-webkit-box-shadow: 0 0 10px rgba(23, 44, 58, 0.75);
+		-box-shadow: 0 0 10px rgba(23, 44, 58, 0.75);
+		border-radius: 10px;
+		background: url(../images/modal_bg.png) no-repeat;
+		text-align: center;
+		padding-top: 35px;
+		color: #fff;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		width: 700px;
+		height: 517px;
+		box-sizing: border-box;
+		}
+	#zakaz_skudka3.reveal-modal {
+		visibility: hidden;
+		top: 100px;
+		/* left: 50%; */
+		/* margin-left: -300px; */
+		background: #fff;
+		position: fixed;
+		z-index: 999999;
+		-moz-box-shadow: 0 0 10px rgba(23, 44, 58, 0.75);
+		-webkit-box-shadow: 0 0 10px rgba(23, 44, 58, 0.75);
+		-box-shadow: 0 0 10px rgba(23, 44, 58, 0.75);
+		border-radius: 10px;
+		background: url(../images/modal_bg.png) no-repeat;
+		text-align: center;
+		padding-top: 35px;
+		color: #fff;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		width: 700px;
+		height: 517px;
+		box-sizing: border-box;
+		}
+		
+	.reveal-modal.small 		{ width: 200px; margin-left: -140px;}
+	.reveal-modal.medium 		{ width: 400px; margin-left: -240px;}
+	.reveal-modal.large 		{ width: 600px; margin-left: -340px;}
+	.reveal-modal.xlarge 		{ width: 800px; margin-left: -440px;}
+	
+	#zakaz_zvonka.reveal-modal .close-reveal-modal {
+		    background: url(../images/close.png);
+		    color: transparent;
+		    position: absolute;
+		    cursor: pointer;
+		    right: -60px;
+		    top: -50px;
+		    width: 30px;
+		    height: 33px;
+		} 
+	#zakaz_skudka.reveal-modal .close-reveal-modal {
+		    background: url(../images/close.png);
+		    color: transparent;
+		    position: absolute;
+		    cursor: pointer;
+		    right: 0px;
+		    top: -50px;
+		    width: 30px;
+		    height: 33px;
+		} 
+	#zakaz_skudka2.reveal-modal .close-reveal-modal {
+		    background: url(../images/close.png);
+		    color: transparent;
+		    position: absolute;
+		    cursor: pointer;
+		    right: 0px;
+		    top: -50px;
+		    width: 30px;
+		    height: 33px;
+		} 
+	#zakaz_skudka3.reveal-modal .close-reveal-modal {
+		    background: url(../images/close.png);
+		    color: transparent;
+		    position: absolute;
+		    cursor: pointer;
+		    right: 0px;
+		    top: -50px;
+		    width: 30px;
+		    height: 33px;
+		} 
+
